@@ -1,8 +1,13 @@
-# Cats
+# 🐱 Cats
 
-This repository contains a collection of royalty-free cat images sourced from [Pexels](https://pexels.com) for use in testing CDN performance, lazy-loading, image rendering, and other front-end development use cases.
+This repository provides a collection of royalty-free cat images sourced from [Pexels](https://pexels.com), along with compressed versions of the same images. These are useful for testing:
 
-## Purpose
+- CDN performance (e.g. via JSDelivr)
+- Lazy-loading behavior
+- Image rendering and optimization strategies
+- General front-end development workflows
+
+## 🔧 Purpose
 
 This is a utility repo intended for developers who want to:
 
@@ -10,14 +15,19 @@ This is a utility repo intended for developers who want to:
 - Use consistent URLs for image testing across projects.
 - Benchmark image delivery performance from GitHub/CDN.
 
-## Usage
+## 📦 Usage
 
 Example image URL via JSDelivr:
+```
 https://cdn.jsdelivr.net/gh/brandon-whitman-orlin/cats/images/cat1.jpg
+```
+```
+https://cdn.jsdelivr.net/gh/brandon-whitman-orlin/cats/low-resolution-images/cat1-lowres.jpg
+```
 
-## Attribution
+## 📝 Attribution
 
-Images are from Pexels and are licensed either under the [CC0 License](https://creativecommons.org/public-domain/cc0/), or [Pexels License](https://www.pexels.com/license/). Attribution is recommended when reusing these images.
+Images are from Pexels and are licensed either under the [CC0 License](https://creativecommons.org/public-domain/cc0/), or [Pexels License](https://www.pexels.com/license/).  Attribution is not required but is appreciated when reusing these images.
 
 | File      | Photographer       | Link                                                                                               | License        |
 | --------- | ------------------ | -------------------------------------------------------------------------------------------------- | -------------- |
@@ -32,6 +42,6 @@ Images are from Pexels and are licensed either under the [CC0 License](https://c
 | cat9.jpg  | Ihsan Adityawarman | https://www.pexels.com/photo/close-up-photography-of-sleeping-tabby-cat-1056251/                   | Pexels License |
 | cat10.jpg | Pixabay            | https://www.pexels.com/photo/low-angle-shot-of-a-tabby-cat-208984/                                 | CC0 License    |
 
-## License
+## 📄 License
 
 See [LICENSE](./LICENSE) for details.
